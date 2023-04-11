@@ -1,0 +1,58 @@
+.datatableViewOrderCus {
+  height: 480px;
+  margin-left: 45px;
+  margin-right: 45px;
+  .title {
+    font-size: 24px;
+    font-weight: 500;
+    color: gray;
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .rowViewOrderCus:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+
+  .rowViewOrderCus {
+    cursor: pointer;
+    .cellID {
+      width: 50px;
+    }
+
+    .cellDate {
+      width: 200px;
+    }
+
+    .cellTotal {
+      width: 200px;
+      .cellTotalData {
+        margin-left: 16px;
+      }
+    }
+
+    .cellStatus {
+      width: 200x;
+
+      .active {
+        margin-left: 7px;
+        color: green;
+        font-weight: 600;
+      }
+
+      .disable {
+        margin-left: 7px;
+        color: red;
+        font-weight: 600;
+      }
+    }
+  }
+  .pagination {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+  }
+}

@@ -1,0 +1,17 @@
+.dialog{
+    position: absolute;
+    top: 10px;
+
+    .icon {
+        background-color:  rgb(252, 168, 168);
+    }
+    .no {
+     background-color: rgba(180, 180, 180, 0.87);
+
+    }
+
+    .yes{
+        background-color: rgb(255, 44, 44);
+        color: white;
+    }
+}

@@ -1,0 +1,117 @@
+.profile__wrap {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: calc(var(--navbar-height) + var(--turnover-height));
+}
+
+.profile__content {
+    margin: 40px 0;
+    min-width: 1080px;
+    padding: 20px 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.profile__content h1 {
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.profile__content p {
+    color: var(--text-color);
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+}
+
+.user__email {
+    color: var(--primary-color);
+}
+
+.user__displayName {
+    color: var(--primary-color);
+}
+
+.profile__content-item {
+    margin-top: 40px;
+}
+
+.profile__content-item h1 {
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 600;
+    margin: 20px 0 38px;
+    color: var(--text-color);
+}
+
+.clickViewOrder {
+    text-decoration: none;
+}
+
+.order-details__items:hover {
+    background-color: #de24530a;
+}
+
+.order-details__items {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 1080px;
+    margin: 24px 0;
+    padding: 0 20px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.order-details__item-name h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--button-color);
+}
+
+.order-details__item-total-price-span {
+    color: var(--button-color);
+}
+
+.order-details__item-total-price-p {
+    margin: 0 0 15px 0;
+}
+
+.order-details__item-order-total-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.btn-cancel {
+    margin-top: 12px;
+    position: relative;
+    display: inline-block; 
+    padding: 5px 8px;
+    background-color: #f1954f;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.1px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn-cancel-disable {
+    margin-top: 12px;
+    position: relative;
+    display: inline-block; 
+    padding: 5px 8px;
+    background-color: #f1954f;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.1px;
+    border: none;
+    border-radius: 6px;
+    cursor: default;
+    opacity: 0.3;
+}

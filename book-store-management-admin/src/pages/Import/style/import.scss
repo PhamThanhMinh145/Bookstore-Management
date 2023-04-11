@@ -1,0 +1,101 @@
+.containerImport {
+  min-width: 100%;
+  position: relative;
+  .title {
+    font-size: 25px;
+    font-weight: 500;
+    color: gray;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .flex-input {
+    width: 100%;
+    display: flex;
+    margin-bottom: 40px;
+
+    .fileName {
+      width: 50%;
+      height: 44px;
+      border: 0.5px solid lightgray;
+      border-radius: 5px;
+      font-size: 17px;
+      font-weight: 500;
+      padding: 10px;
+      // text-align: center;
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    }
+
+    .uploadButton {
+      width: 30px;
+      height: 40px;
+
+      .upload {
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 7px 25px;
+        border-radius: 5px;
+        background-color: rgb(143, 253, 143);
+        color: rgb(26, 153, 26);
+        border: 1px solid rgba(8, 240, 66, 0.596);
+        cursor: pointer;
+      }
+    }
+  }
+
+  
+    .rowBook {
+      .cellName {
+        min-width: 170px;
+      }
+
+      .cellPrice {
+        min-width: 150px;
+      }
+      .cellQuatity {
+        min-width: 130px;
+      }
+
+      .cellDescription {
+        min-width: 215px;
+        .content{
+          display: -webkit-box;
+          -webkit-line-clamp: 8;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+
+
+        }
+      }
+
+      .cellStripID{
+        
+        .contentStrip{
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    
+  }
+
+  .submit {
+    position: absolute;
+    // right: 10px;
+    bottom: -60px;
+    left: 10px;
+
+    .btnSubmit {
+      text-transform: capitalize;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 7px 25px;
+      border-radius: 5px;
+      background-color: rgb(143, 253, 143);
+      color: rgb(26, 153, 26);
+      border: 1px solid rgba(8, 240, 66, 0.596);
+      cursor: pointer;
+    }
+  }
+}

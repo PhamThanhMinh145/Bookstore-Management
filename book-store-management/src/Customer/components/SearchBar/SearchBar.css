@@ -1,0 +1,9 @@
+.linkToBook {
+    min-height: 6em;
+    width: 100%;
+    text-decoration: none;
+}
+
+.linkToBook:hover {
+    background-color: rgba(241, 239, 239, 0.397);
+}

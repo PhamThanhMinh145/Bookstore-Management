@@ -1,0 +1,108 @@
+.datatableViewOrderDetail {
+  height: 480px;
+  margin-left: 45px;
+  margin-right: 45px;
+  .title {
+    font-size: 24px;
+    font-weight: 500;
+    color: gray;
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .rowViewOrderDetail:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+
+  .rowViewOrderDetail {
+    .cellID {
+      width: 10px;
+    }
+
+    .cellImg {
+      width: 175px;
+      text-align: center;
+      img {
+        width: 120px;
+        height: 150px;
+        border-radius: 20px;
+        object-fit: cover;
+      }
+    }
+
+    .cellBookName {
+      width: 250px;
+    }
+
+    .cellBookPrice {
+      width: 100px;
+
+      .cellBookPriceData {
+        margin-left: 2px;
+      }
+    }
+
+    .cellQuantity {
+      width: 70px;
+      .cellQuantityData {
+        margin-left: 35px;
+      }
+    }
+
+    .cellDate {
+      width: 200px;
+
+      .cellDateData {
+        margin-left: 26px;
+      }
+    }
+
+    .cellTotalPrice {
+      width: 100px;
+      .cellTotalData {
+        margin-left: 20px;
+      }
+    }
+
+    .cellStatus {
+      width: 200x;
+
+      .active {
+        margin-left: 7px;
+        color: green;
+        font-weight: 600;
+      }
+
+      .disable {
+        margin-left: 7px;
+        color: red;
+        font-weight: 600;
+      }
+    }
+
+    .action {
+      margin-right: 100px;
+      .tip {
+        margin-right: 100px;
+      }
+      .edit {
+        text-transform: capitalize;
+        padding: 8px 25px;
+        border-radius: 5px;
+        background-color: rgb(121, 206, 255);
+        color: rgb(5, 112, 173);
+        border: 1px solid rgba(5, 112, 173, 0.596);
+        cursor: pointer;
+        margin-right: 20px;
+      }
+    }
+  }
+  .pagination {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+  }
+}

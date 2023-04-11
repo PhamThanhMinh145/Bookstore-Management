@@ -1,0 +1,178 @@
+@import url("https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css");
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    --text-color: #333 !important;
+    --white-color: #fff !important;
+    --black-color: #000 !important;
+    --primary-color: #006e7f !important;
+    --secondary-color: #f8cb2e !important;
+    --button-color: #b22727 !important;
+    --footer-color: #2b0f42 !important;
+
+    --navbar-height: 118px !important;
+    --turnover-height: 40px !important;
+    --footer-height: 210px !important;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Button */
+
+.btn-primary {
+    position: relative;
+    display: inline-block;
+    width: 146px;
+    height: 38px;
+    padding: 11px 10px 10px;
+    background-color: var(--button-color);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.1px;
+    border: none;
+    border-radius: 99px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-secondary {
+    position: relative;
+    display: inline-block;
+    width: 192px;
+    height: 38px;
+    padding: 11px 10px 10px;
+    background-color: var(--button-color);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.1px;
+    border: none;
+    border-radius: 99px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary i {
+    position: absolute;
+    top: 50%;
+    transform: translate(-10px, -50%);
+    display: inline-block;
+    font-size: 20px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.btn-primary:hover i {
+    transform: translate(5px, -50%);
+    opacity: 1;
+}
+
+.btn-primary:hover {
+    background-color: var(--button-color);
+    box-shadow: 1px 7px 13px 0px rgb(67 0 17 / 13%);
+    padding-right: 30px;
+    transform: scale(1.02);
+}
+
+.btn-secondary:hover {
+    background-color: var(--button-color);
+    box-shadow: 1px 7px 13px 0px rgb(67 0 17 / 13%);
+    transform: scale(1.02);
+}
+
+/* Paginate */
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    border-top: 5rem;
+    font-size: 2.6rem;
+    gap: 5px;
+    margin-bottom: 60px;
+}
+
+.pagination .page-num {
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.pagination .page-num:hover {
+    background-color: var(--button-color);
+    color: var(--white-color);
+}
+
+.pagination .active {
+    background-color: var(--button-color);
+    color: var(--white-color);
+}
+
+/* THE LOADING EFFECT */
+.skeleton {
+    background-color: #e2e5e7;
+    background-image: linear-gradient(90deg, rgba(#fff, 0), rgba(#fff, 0.5), rgba(#fff, 0));
+    background-size: 40px 100%;
+    background-repeat: no-repeat;
+    background-position: left -40px top 0;
+    animation: shine 1s ease infinite;
+}
+
+@keyframes shine {
+    to {
+        background-position: right -40px top 0;
+    }
+}
+
+/* --------- Toastify ----------- */
+/* Toastify */
+.Toastify__close-button {
+    display: none;
+}
+
+.Toastify__toast {
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+/* -------- Responsive ----------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

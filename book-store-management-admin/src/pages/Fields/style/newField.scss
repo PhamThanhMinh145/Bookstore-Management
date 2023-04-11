@@ -1,0 +1,38 @@
+.containerField {
+    .grid {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  
+      .gridInput {
+        display: flex;
+        justify-content: space-evenly;
+  
+        .size {
+          width: 120%;
+        }
+      }
+  
+      .btnField {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+        .submit {
+          background: green;
+          margin-top: 0;
+          width: 150px;
+          margin-right: 20px;
+          color: white;
+        }
+  
+        .reset {
+          margin-top: 0;
+          width: 150px;
+          background-color: rgb(187, 193, 194);
+          color: white;
+        }
+      }
+    }
+  }
+  

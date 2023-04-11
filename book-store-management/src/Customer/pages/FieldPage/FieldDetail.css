@@ -1,0 +1,112 @@
+.field-name {
+    margin-top: calc(var(--navbar-height) + 32px + var(--turnover-height));
+    margin-bottom: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fieldName-container {
+    width: 1023px;
+}
+
+.fieldName-container h1 {
+    display: block;
+    color: var(--primary-color);
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.fieldName-container__desc {
+    max-width: 660px;
+}
+
+.fieldName-container p {
+    color: #4c3b41;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 300;
+    text-align: justify;
+    display: block;
+    margin-top: 8px;
+}
+
+.bookListContainer {
+    margin-bottom: 124px;
+    display: flex;
+    justify-content: center;
+}
+
+.bookList {
+    max-width: 1024px;
+    display: grid;
+    grid-column-gap: 2.4rem;
+    -moz-column-gap: 2.4rem;
+    column-gap: 2.4rem;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-row-gap: 2.4rem;
+    row-gap: 2.4rem;
+}
+
+/* SORTTTTTTTTTTTTTTTT */
+.sort-select__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.sort-select__div {
+    min-width: 1024px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sort-select,
+.sort-select * {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.sort-select {
+    position: relative;
+    background-color: #e6e6e6;
+    border-radius: 4px;
+}
+
+.sort-select select {
+    font-size: 1.3rem;
+    font-weight: normal;
+    max-width: 100%;
+    padding: 8px 24px 8px 10px;
+    border: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    appearance: none;
+}
+
+.sort-select select:active,
+.sort-select select:focus {
+    outline: none;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.sort-select:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    width: 0;
+    height: 0;
+    margin-top: -2px;
+    border-top: 5px solid #aaa;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}

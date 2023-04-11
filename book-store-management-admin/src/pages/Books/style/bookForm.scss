@@ -1,0 +1,111 @@
+.newContainer {
+  display: block;
+  // width: 100%;
+  margin-top: 50px;
+
+  .top {
+    background-color: white;
+
+    h1 {
+      color: gray;
+      font-size: 24px;
+      font-weight: 500;
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      padding: 10px;
+      margin: 20px;
+    }
+  }
+  .bottom {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex: 3;
+    .left {
+      flex: 1;
+      padding: 0;
+      margin-top: 20px;
+      .i {
+        display: flex;
+        justify-content: center;
+        img {
+          width: 150px;
+          height: 200px;
+          border-radius: 20px;
+          object-fit: cover;
+          align-content: center;
+          // margin: 0 122px;
+        }
+      }
+    }
+
+    .right {
+      flex: 2;
+      margin-top: 20px;
+      
+      .gridInput {
+
+
+        .imageUpload {
+
+          padding: 16.3px 0;
+          width: 70%;
+          margin-bottom: 20px;
+
+          label {
+            font-size: 20px;
+          }
+        }
+
+        .input{
+        
+          margin-bottom: 20px;
+
+          .size{
+            width: 70%;
+          }
+
+        }
+
+        .select{
+          margin-bottom: 20px;
+
+        }
+        
+        .date {
+          
+          margin-bottom: 20px;
+          margin-top: 10px;
+
+          .size{
+            width: 70%;
+          }
+          
+        }
+
+        .btn {
+          margin-top: 40px;
+          display: flex;
+          flex-direction: row;
+          margin-bottom: 40px;
+          .submit {
+            margin-top: 0;
+            width: 150px;
+            margin-right: 20px;
+            color: white;
+            background-color: rgb(75, 252, 59);
+          }
+
+          .reset {
+            margin-top: 0;
+            width: 150px;
+            background-color: rgb(187, 193, 194);
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

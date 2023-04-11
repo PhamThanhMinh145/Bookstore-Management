@@ -1,0 +1,16 @@
+/* SILDER */
+.slider {
+    width: 100%;
+    margin-top: calc(var(--navbar-height) + var(--turnover-height));
+}
+
+.slider__item {
+    height: 500px;
+    object-fit: contain;
+}
+
+.slider__img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}

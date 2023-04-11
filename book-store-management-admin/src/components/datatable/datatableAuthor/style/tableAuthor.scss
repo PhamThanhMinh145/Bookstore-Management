@@ -1,0 +1,91 @@
+.datatableAuthor {
+  //height: 480px;
+
+  .title {
+    font-size: 24px;
+    font-weight: 500;
+    color: gray;
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .addNewAuthor {
+      text-decoration: none;
+      color: #12e86b;
+      font-size: 12px;
+      border: 1px solid rgb(90, 196, 90);
+      border-radius: 5px;
+      padding: 5px;
+    }
+  }
+
+
+  .searchAuthor{
+    width: 80%;
+    margin-bottom: 20px;
+    .searchInput{
+      width: 70%;
+    }
+  }
+
+
+  .rowAuthor:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+
+  .rowAuthor {
+    .cellID {
+      width: 150px;
+      height: 10px;
+    }
+
+    .cellName {
+      width: 400px;
+    }
+    .action {
+      .tip {
+        display: flex;
+
+        .edit {
+          text-transform: capitalize;
+          padding: 8px 25px;
+          border-radius: 5px;
+          background-color: rgb(143, 253, 143);
+          color: rgb(26, 153, 26);
+          border: 1px solid rgba(8, 240, 66, 0.596);
+          cursor: pointer;
+          margin-right: 20px;
+        }
+
+        .delete {
+          text-transform: capitalize;
+          padding: 5px 25px;
+          border-radius: 5px;
+          background-color: rgb(255, 194, 203);
+          color: red;
+          border: 1px solid rgb(255, 178, 190);
+          cursor: pointer;
+        }
+
+        .disable {
+          text-transform: capitalize;
+          padding: 5px 25px;
+          border-radius: 5px;
+          background-color: rgb(255, 194, 203);
+          color: red;
+          border: 1px solid rgb(255, 178, 190);
+          cursor: pointer;
+          opacity: 0.4;
+        }
+      }
+    }
+  }
+
+  .pagination {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+  }
+}

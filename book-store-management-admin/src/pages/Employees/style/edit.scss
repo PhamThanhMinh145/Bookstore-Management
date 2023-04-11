@@ -1,0 +1,168 @@
+.employee {
+  flex: 4;
+  margin: 20px;
+  padding: 20px;
+
+  .employeeTitleContainer {
+    background-color: white;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .employeeTitle {
+      font-size: 25px;
+      font-weight: 500;
+      color: gray;
+    }
+
+    .employeeAddButton {
+      width: 80px;
+      border: none;
+      padding: 8px;
+      background-color: #12e86b;
+      color: white;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+  }
+
+  .employeeContainer {
+    display: flex;
+    margin-top: 20px;
+    background-color: white;
+
+    .show {
+      flex: 1;
+      padding: 20px;
+      -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+
+      .showTop {
+        display: flex;
+        align-items: center;
+
+        .employeeShowImg {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+
+        .showTopTitle {
+          display: flex;
+          flex-direction: column;
+          margin-left: 20px;
+          font-size: 17px;
+
+          .showUserName {
+            font-weight: 600;
+          }
+
+          .showRole {
+            font-weight: 300;
+          }
+        }
+      }
+
+      .showBottom {
+        margin-top: 20px;
+        .showTitle {
+          font-size: 16px;
+          font-weight: 600;
+          color: rgb(175, 170, 170);
+        }
+
+        .showInfo {
+          display: flex;
+          align-items: center;
+          margin: 20px 0;
+          color: #444;
+
+          .showIcon {
+            font-size: 16px !important;
+          }
+
+          .showInfoTitle {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+
+    .update {
+      flex: 3;
+      padding: 20px;
+      -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+      margin-left: 20px;
+
+      .updateTitle {
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      .gridInput {
+        margin-top: 20px;
+
+        .input {
+          margin-bottom: 20px;
+
+          .size {
+            width: 70%;
+          }
+        }
+
+        .radio,
+        .select,
+        .checkbox {
+          margin-bottom: 20px;
+        }
+
+        .imgUpload {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+
+          .image {
+            margin-top: 20px;
+            margin-right: 20px;
+            img {
+              width: 120px;
+              height: 120px;
+              border-radius: 50%;
+              object-fit: cover;
+              align-content: center;
+              // margin: 0 122px;
+            }
+          }
+
+          .buttonUpload {
+            margin-top: 20px;
+            .icon {
+              font-size: 30px;
+            }
+          }
+        }
+
+        .btn {
+          margin-left: 160px;
+          margin-top: 40px;
+          display: flex;
+          flex-direction: row;
+          margin-bottom: 40px;
+
+          .submit {
+            margin-top: 50px;
+            width: 150px;
+            margin-right: 20px;
+            color: white;
+            background-color: rgb(75, 252, 59);
+          }
+        }
+      }
+    }
+  }
+}

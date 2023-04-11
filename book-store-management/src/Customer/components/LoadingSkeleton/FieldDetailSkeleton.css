@@ -1,0 +1,21 @@
+.fieldDetail-skeleton {
+    height: 442px;
+    width: 194px;
+}
+
+.fieldDetail-skeleton__image {
+    height: 280px;
+    width: 100%;
+}
+
+.fieldDetail-skeleton-title {
+    margin: 15px 0; 
+}
+
+.fieldDetail-skeleton-author {
+    margin-bottom: 8px;
+}
+
+.fieldDetail-skeleton-add-btn {
+    margin-top: 4px;
+}
